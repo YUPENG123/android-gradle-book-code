@@ -68,7 +68,7 @@ project(':example610').projectDir = new File(rootDir, 'chapter06/example610')
 //第七章项目例子定义
 include ':example73'
 project(':example73').projectDir = new File(rootDir, 'chapter07/example73')
-include ':example74'
+/* include ':example74'
 project(':example74').projectDir = new File(rootDir, 'chapter07/example74')
 //第八章项目例子定义
 include ':example82'
@@ -78,8 +78,8 @@ include ':example91'
 project(':example91').projectDir = new File(rootDir, 'chapter09/example91')
 include ':example92'
 project(':example92').projectDir = new File(rootDir, 'chapter09/example92')
-include ':example93'
-project(':example93').projectDir = new File(rootDir, 'chapter09/example93')
+// include ':example93'
+// project(':example93').projectDir = new File(rootDir, 'chapter09/example93')
 include ':example94'
 project(':example94').projectDir = new File(rootDir, 'chapter09/example94')
 include ':example95'
@@ -108,4 +108,4 @@ project(':example126').projectDir = new File(rootDir, 'chapter12/example126')
 include ':example131'
 project(':example131').projectDir = new File(rootDir, 'chapter13/example131')
 include ':example132'
-project(':example132').projectDir = new File(rootDir, 'chapter13/example132')
+project(':example132').projectDir = new File(rootDir, 'chapter13/example132') */

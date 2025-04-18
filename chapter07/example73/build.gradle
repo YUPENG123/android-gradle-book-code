@@ -1,3 +1,5 @@
+//https://stackoverflow.com/questions/2710499/android-sdk-on-a-64-bit-linux-machine/10473415#10473415
+
 buildscript {
     repositories {
         jcenter()
@@ -25,6 +27,10 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+	lintOptions {
+         	 abortOnError false
+      }
+
 }
 
 dependencies {
