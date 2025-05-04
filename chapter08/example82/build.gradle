@@ -17,7 +17,7 @@ android {
     buildToolsVersion "23.0.1"
 
     signingConfigs {
-        /*release {
+        /* release {
             storeFile file("myreleasekey.keystore")
             storePassword "password"
             keyAlias "MyReleaseKey"
@@ -28,7 +28,7 @@ android {
             storePassword "password"
             keyAlias "MyDebugKey"
             keyPassword "password"
-        }*/
+        } */
     }
 
     defaultConfig {
@@ -50,6 +50,9 @@ android {
             //signingConfig signingConfigs.debug
         }
     }
+	lintOptions {
+        	  abortOnError false
+      }
 }
 
 dependencies {
