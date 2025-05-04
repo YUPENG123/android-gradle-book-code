@@ -1,3 +1,4 @@
+1.
 https://stackoverflow.com/questions/2710499/android-sdk-on-a-64-bit-linux-machine/10473415
 sudo dpkg --add-architecture i386
 sudo apt-get update
@@ -11,6 +12,10 @@ adb install -t xxxx.apk
 
 
 adb shell pm list packages
+
+
+adb uninstall org.flysnow.app.example73
+
 
 
 在命令行中使用如下命令生成密钥库（Keystore）：
